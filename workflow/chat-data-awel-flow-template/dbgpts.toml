@@ -1,0 +1,11 @@
+[flow]
+label = "chat-data-awel-flow-template"
+name = "chat-data-awel-flow-template"
+version = "0.1.0"
+description = "A chatbot based on intent recognition and slot filling as a entrance to all other chatbots."
+authors = []
+definition_type = "python"
+
+[python_config]
+
+[json_config]

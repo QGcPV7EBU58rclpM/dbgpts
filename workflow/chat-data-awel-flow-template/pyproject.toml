@@ -1,0 +1,22 @@
+[project]
+name = "chat-data-awel-flow-template"
+version = "0.1.0"
+description = "A chatbot based on intent recognition and slot filling as a entrance to all other chatbots."
+authors = [
+    { name = "Fangyin Cheng", email = "staneyffer@gmail.com" }
+]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.uv]
+dev-dependencies = [
+    "dbgpt[agent]",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["chat-data-awel-flow-template"]
